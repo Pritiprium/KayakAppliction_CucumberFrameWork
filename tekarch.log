@@ -1,0 +1,40 @@
+2020-07-19 22:55:31 INFO  Booking_Step 24 - Browser Launched Successfully
+2020-07-19 22:55:34 INFO  Booking_Step 31 - Flight button clicked
+2020-07-19 23:00:06 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:00:08 INFO  Booking_Step 32 - Flight button clicked
+2020-07-19 23:29:21 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:29:24 INFO  Booking_Step 32 - Flight button clicked
+2020-07-19 23:32:09 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:32:11 INFO  Booking_Step 32 - Flight button clicked
+2020-07-19 23:33:50 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:33:52 INFO  Booking_Step 32 - Flight button clicked
+2020-07-19 23:36:11 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:36:13 INFO  Booking_Step 32 - Flight button clicked
+2020-07-19 23:37:17 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-19 23:37:19 INFO  Booking_Step 32 - Flight button clicked
+2020-07-20 16:23:16 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-20 16:26:26 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-20 16:26:30 INFO  Booking_Step 32 - Flight button clicked
+2020-07-23 12:59:28 INFO  Booking_Step 25 - Browser Launched Successfully
+2020-07-23 14:51:10 INFO  Flight_BookingSteps 20 - Browser Launched Successfully
+2020-07-23 14:51:58 INFO  Flight_BookingSteps 20 - Browser Launched Successfully
+2020-07-23 14:58:35 INFO  Flight_BookingSteps 20 - Browser Launched Successfully
+2020-07-23 14:58:40 INFO  Flight_BookingSteps 26 - Default City canceled
+2020-07-23 15:21:33 INFO  Flight_BookingSteps 20 - Browser Launched Successfully
+2020-07-23 15:21:34 INFO  Flight_BookingSteps 26 - Default City canceled
+2020-07-23 15:21:40 INFO  Flight_BookingSteps 33 - O'Hare Airport Selected
+2020-07-23 15:21:44 INFO  Flight_BookingSteps 47 - Denver Airport Selected
+2020-07-23 15:27:43 INFO  Flight_BookingSteps 21 - Browser Launched Successfully
+2020-07-23 15:27:44 INFO  Flight_BookingSteps 27 - Default City canceled
+2020-07-23 15:27:49 INFO  Flight_BookingSteps 34 - O'Hare Airport Selected
+2020-07-23 15:27:54 INFO  Flight_BookingSteps 48 - Denver Airport Selected
+2020-07-23 15:27:57 INFO  Flight_BookingSteps 61 - Date July 29th selected 
+2020-07-23 15:28:00 INFO  Flight_BookingSteps 68 - Return Date August 9th selected
+2020-07-23 15:28:00 INFO  Flight_BookingSteps 75 - Search Button Cicked
+2020-07-23 16:14:04 INFO  Flight_BookingSteps 21 - Browser Launched Successfully
+2020-07-23 16:14:04 INFO  Flight_BookingSteps 27 - Default City canceled
+2020-07-23 16:14:10 INFO  Flight_BookingSteps 34 - O'Hare Airport Selected
+2020-07-23 16:14:12 INFO  Flight_BookingSteps 48 - Denver Airport Selected
+2020-07-23 16:14:15 INFO  Flight_BookingSteps 61 - Date July 29th selected 
+2020-07-23 16:14:18 INFO  Flight_BookingSteps 68 - Return Date August 9th selected
+2020-07-23 16:14:18 INFO  Flight_BookingSteps 75 - Search Button Cicked
