@@ -60,6 +60,14 @@
 
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
+		<dependency>
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/com.github.mkolisnyk/cucumber-report-generator -->
 		<dependency>
 			<groupId>com.github.mkolisnyk</groupId>
@@ -130,6 +138,14 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.40.2</version>
 		</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+	
 
 		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 		<dependency>

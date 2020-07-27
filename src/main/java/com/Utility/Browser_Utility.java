@@ -1,5 +1,7 @@
 package com.Utility;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -22,6 +24,11 @@ public class Browser_Utility {
 	public static void waitforVisiblity(WebElement elefowait) {
 		WebDriverWait wait = new WebDriverWait(TestBase.driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(elefowait));
+	}
+	
+	public static void ListElements(List<WebElement> elements) {
+		WebDriverWait wait = new WebDriverWait(TestBase.driver, 30);
+		wait.until(ExpectedConditions.visibilityOfAllElements(elements));
 	}
 
 	public static void Tearoff() {

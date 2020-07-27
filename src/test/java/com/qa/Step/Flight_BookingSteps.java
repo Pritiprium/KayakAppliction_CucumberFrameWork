@@ -27,13 +27,19 @@ public class Flight_BookingSteps {
 		log.info("Default City canceled");
 	}
 
-	@Then("^Select airport$")
-	public void select_airport() throws Throwable {
-		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
-		obPage.selectAirport();
-		log.info("O'Hare Airport Selected");
-	}
+//	@Then("^Select airport$")
+//	public void select_airport() throws Throwable {
+//		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
+//		obPage.selectAirport();
+//		log.info("O'Hare Airport Selected");
+//	}
 
+	@Then("^Select airport \"([^\"]*)\"$")
+	public void select_airport(String arg1) throws Throwable {
+		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
+		obPage.selectAirport(arg1);
+	    
+	}
 	@When("^Click on destination btn$")
 	public void click_on_destination_btn() throws Throwable {
 		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
@@ -41,11 +47,17 @@ public class Flight_BookingSteps {
 		
 	}
 
-	@And("^Enter destination city$")
-	public void enter_destination_city() throws Throwable {
+//	@And("^Enter destination city$")
+//	public void enter_destination_city() throws Throwable {
+//		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
+//		obPage.destin_City();
+//		log.info("Denver Airport Selected");
+//	}
+	
+	@When("^Enter destination city \"([^\"]*)\"$")
+	public void enter_destination_city(String arg1) throws Throwable {
 		Search_PageObject obPage = new Search_PageObject(TestBase.driver);
-		obPage.destin_City();
-		log.info("Denver Airport Selected");
+		obPage.destin_City(arg1);
 	}
 
 	@When("^Click on Calendar$")
